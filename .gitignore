@@ -1,0 +1,26 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+
+# Build outputs
+*/build/
+app/build/
+
+# Keystore / signing secrets
+*.jks
+*.keystore
+keystore.properties
+
+# Packaged apps (attached to GitHub Releases instead)
+*.apk
+*.aab
+
+# Gradle wrapper jar is kept, but generated caches are not
+!gradle/wrapper/gradle-wrapper.jar

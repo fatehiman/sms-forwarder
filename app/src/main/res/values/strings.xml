@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kargoyar SMS Forwarder</string>
+
+    <!-- Menu -->
+    <string name="menu_permissions">دسترسی‌ها</string>
+    <string name="menu_about">درباره</string>
+
+    <!-- Main screen -->
+    <string name="main_description">این برنامه پیامک‌های ورودی که با فیلترهای شما مطابقت داشته باشند را به شماره‌های تلفن و یا یک وب‌هوک ارسال می‌کند. برنامه به‌طور کامل آفلاین کار می‌کند، به‌جز زمانی که درخواست وب‌هوک ارسال می‌شود.</string>
+
+    <string name="label_senders">ارسال‌کننده‌ها</string>
+    <string name="hint_senders">مثال: 09121234567، شرکت الف</string>
+    <string name="helper_senders">اگر خالی باشد، پیامک از هر فرستنده‌ای مطابقت دارد. برای چند مورد از ویرگول استفاده کنید.</string>
+
+    <string name="label_text_filter">متن</string>
+    <string name="hint_text_filter">بخشی از متن پیامک</string>
+    <string name="helper_text_filter">اگر پر شود، متن پیامک باید شامل این عبارت باشد (بدون حساسیت به حروف بزرگ/کوچک). اگر خالی باشد، هر متنی مطابقت دارد.</string>
+
+    <string name="label_forward_numbers">فوروارد به</string>
+    <string name="hint_forward_numbers">مثال: 09121234567، 09123456789</string>
+    <string name="helper_forward_numbers">پیامک‌های مطابقت‌یافته دوباره به این شماره‌ها به‌صورت پیامک ارسال می‌شوند. اختیاری است.</string>
+    <string name="error_forward_numbers">شماره وارد شده نامعتبر است. فقط عدد و علامت + مجاز است.</string>
+
+    <string name="label_webhook">وب‌هوک</string>
+    <string name="hint_webhook">https://example.com/hook</string>
+    <string name="helper_webhook">پیامک‌های مطابقت‌یافته به‌صورت JSON به این آدرس ارسال می‌شوند. اختیاری است.</string>
+    <string name="error_webhook">آدرس وب‌هوک نامعتبر است. باید با http یا https شروع شود.</string>
+
+    <string name="error_no_destination">هیچ مقصدی برای فوروارد وارد نشده است. لطفاً حداقل یک شماره فوروارد یا یک وب‌هوک وارد کنید.</string>
+
+    <string name="btn_save">ذخیره</string>
+    <string name="msg_saved">ذخیره شد</string>
+
+    <!-- Permissions screen -->
+    <string name="perm_sms_title">دسترسی پیامک‌ها</string>
+    <string name="perm_sms_desc">برای دریافت و ارسال پیامک، این دسترسی لازم است.</string>
+    <string name="btn_perm_sms">اجازه دسترسی به پیامک‌ها</string>
+
+    <string name="perm_notif_title">دسترسی اعلان‌ها</string>
+    <string name="perm_notif_desc">برای نمایش اعلان سرویس در حال اجرا، این دسترسی لازم است.</string>
+    <string name="btn_perm_notif">اجازه نمایش اعلان</string>
+
+    <string name="perm_battery_title">بهینه‌سازی باتری</string>
+    <string name="perm_battery_desc">با غیرفعال‌کردن بهینه‌سازی باتری برای این برنامه، احتمال بسته‌شدن آن توسط سیستم کمتر می‌شود.</string>
+    <string name="btn_perm_battery">غیرفعال‌کردن بهینه‌سازی باتری</string>
+
+    <string name="perm_autostart_title">اجرای خودکار برنامه</string>
+    <string name="perm_autostart_desc">در اندروید یک API عمومی برای «اجازه اجرای خودکار» وجود ندارد. در برخی گوشی‌ها (شیائومی، هواوی، اوپو و مشابه آن‌ها) باید جداگانه از طریق اپلیکیشن امنیت یا باتری گوشی، اجرای خودکار یا فعالیت در پس‌زمینه را برای این برنامه فعال کنید. این دکمه فقط یک میان‌بر به تنظیمات سیستم برای این برنامه است.</string>
+    <string name="btn_perm_autostart">تنظیمات اجرای خودکار برنامه</string>
+
+    <string name="status_granted">فعال</string>
+    <string name="status_not_granted">غیرفعال</string>
+    <string name="status_not_applicable">مورد نیاز نیست</string>
+
+    <!-- About screen -->
+    <string name="about_version_format">نسخه %1$s</string>
+    <string name="about_description">این برنامه پیامک‌های دریافتی را بر اساس فیلترهایی که تعیین می‌کنید به شماره‌های تلفن و یا یک آدرس وب‌هوک فوروارد می‌کند. کاملاً آفلاین کار می‌کند و هیچ تبلیغ، ردیابی یا آماری در آن وجود ندارد.</string>
+    <string name="about_license">این برنامه متن‌باز است و تحت مجوز MIT منتشر شده است.</string>
+    <string name="about_font_credit">فونت فارسی این برنامه، وزیرمتن (Vazirmatn)، تحت مجوز OFL منتشر شده است.</string>
+
+    <!-- Foreground service -->
+    <string name="service_channel_name">سرویس فوروارد پیامک</string>
+    <string name="service_notification_text">Kargoyar SMS Forwarder فعال است</string>
+</resources>
