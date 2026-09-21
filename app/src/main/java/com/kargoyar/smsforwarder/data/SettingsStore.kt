@@ -14,6 +14,7 @@ object SettingsStore {
     private const val KEY_TEXT_FILTER = "text_filter"
     private const val KEY_FORWARD_NUMBERS = "forward_numbers"
     private const val KEY_WEBHOOK_URL = "webhook_url"
+    private const val KEY_ONBOARDING_DONE = "onboarding_done"
 
     private fun prefs(context: Context): SharedPreferences =
         context.applicationContext.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
@@ -50,4 +51,11 @@ object SettingsStore {
 
     fun isForwardingConfigured(context: Context): Boolean =
         getForwardNumbers(context).isNotEmpty() || getWebhookUrl(context).isNotBlank()
+
+    fun isOnboardingDone(context: Context): Boolean =
+        prefs(context).getBoolean(KEY_ONBOARDING_DONE, false)
+
+    fun setOnboardingDone(context: Context) {
+        prefs(context).edit().putBoolean(KEY_ONBOARDING_DONE, true).apply()
+    }
 }

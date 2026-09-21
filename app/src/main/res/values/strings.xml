@@ -59,6 +59,15 @@
     <string name="about_license">این برنامه متن‌باز است و تحت مجوز MIT منتشر شده است.</string>
     <string name="about_font_credit">فونت فارسی این برنامه، وزیرمتن (Vazirmatn)، تحت مجوز OFL منتشر شده است.</string>
 
+    <!-- Onboarding wizard -->
+    <string name="onboarding_welcome_title">خوش آمدید</string>
+    <string name="onboarding_welcome_desc">این برنامه پیامک‌های دریافتی را طبق تنظیمات شما فوروارد می‌کند. برای کارکرد صحیح، در چند صفحه بعد چند دسترسی لازم است. این دسترسی‌ها را یکی‌یکی تایید کنید.</string>
+    <string name="onboarding_start">شروع</string>
+    <string name="onboarding_finish_title">تمام شد</string>
+    <string name="onboarding_finish_desc">حالا می‌توانید تنظیمات فوروارد پیامک را وارد کنید. برای بررسی یا تغییر دسترسی‌ها در آینده، از منوی برنامه گزینه «دسترسی‌ها» را انتخاب کنید.</string>
+    <string name="onboarding_enter_app">ورود به برنامه</string>
+    <string name="onboarding_skip">رد کردن این مرحله</string>
+
     <!-- Foreground service -->
     <string name="service_channel_name">سرویس فوروارد پیامک</string>
     <string name="service_notification_text">Kargoyar SMS Forwarder فعال است</string>
